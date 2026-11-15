@@ -8,16 +8,24 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/voxmel-logo-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/voxmel-logo.png">
-    <img src="assets/voxmel-logo.png" alt="VoxMel TTS: 웨이블릿과 음성 파형 로고" width="360">
+    <img src="assets/voxmel-logo.png" alt="VoxMel TTS" width="360">
   </picture>
 </p>
 
+
 <p align="center">
-  Technical Report (coming soon) |
-  <a href="https://voxdance.github.io/voxmel-demo">Project Page</a> |
-  <a href="https://github.com/VoxDance-Lab/voxmel">GitHub</a> |
-  <a href="https://huggingface.co/VoxDance-Lab/VoxMel-0.6B">Hugging Face</a>
+  📄 <a href="./assets/papers/VoxMel_Technical_Report.pdf">기술 보고서</a> &nbsp;|&nbsp;
+  🌐 <a href="https://voxdance.github.io/voxmel-demo">프로젝트 페이지</a> &nbsp;|&nbsp;
+  💻 <a href="https://github.com/VoxDance-Lab/VoxMel">GitHub 저장소</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/VoxDance-Lab/">Hugging Face 모델</a>
 </p>
+
+## 🔥 📰 최신 소식
+
+- **2026.11.16** — 기술 보고서를 공개했습니다!
+- **2026.11.12** — 코드 및 모델 가중치(VoxMel-0.6B / VoxMel-0.3B)를 공개했습니다!
+
+---
 
 **VoxMel**은 고정된 정확히 가역적인 2축 Haar 변환으로 멜 스펙트로그램을 직접 모델링하는, 음향 토크나이저가 필요 없는 연속 자기회귀 텍스트 음성 합성(TTS) 프레임워크입니다. 언어 모델 백본과 플로 매칭 헤드가 **Coarse-Mel**을 자기회귀 방식으로 생성하며, 두 비자기회귀 잔차 계층이 시간 및 주파수 세부 정보를 복원합니다. 잔차는 자기회귀 이력에 다시 입력되지 않습니다. 별도의 Vocos 보코더가 복원된 멜 스펙트로그램을 파형으로 변환합니다.
 
