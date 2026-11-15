@@ -8,16 +8,24 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/voxmel-logo-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/voxmel-logo.png">
-    <img src="assets/voxmel-logo.png" alt="VoxMel TTS：小波与语音波形标志" width="360">
+    <img src="assets/voxmel-logo.png" alt="VoxMel TTS" width="360">
   </picture>
 </p>
 
+
 <p align="center">
-  Technical Report (coming soon) |
-  <a href="https://voxdance.github.io/voxmel-demo">Project Page</a> |
-  <a href="https://github.com/VoxDance-Lab/voxmel">GitHub</a> |
-  <a href="https://huggingface.co/VoxDance-Lab/VoxMel-0.6B">Hugging Face</a>
+  📄 <a href="./assets/papers/VoxMel_Technical_Report.pdf">技术报告</a> &nbsp;|&nbsp;
+  🌐 <a href="https://voxdance.github.io/voxmel-demo">项目主页</a> &nbsp;|&nbsp;
+  💻 <a href="https://github.com/VoxDance-Lab/VoxMel">GitHub 代码仓库</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/VoxDance-Lab/">Hugging Face 模型</a>
 </p>
+
+## 🔥 📰 最新动态
+
+- **2026.11.16** — 技术报告正式发布！
+- **2026.11.12** — 代码及模型权重（VoxMel-0.6B / VoxMel-0.3B）正式开源！
+
+---
 
 **VoxMel** 是一种无需声学分词器的连续自回归文本转语音（TTS）框架，通过固定且精确可逆的双轴 Haar 变换直接建模梅尔频谱。语言模型骨干与流匹配预测头以自回归方式生成 **Coarse-Mel**，两个非自回归残差层依次恢复时间和频率细节，且不会将这些残差反馈至自回归历史。独立的 Vocos 声码器将重建的梅尔频谱转换为语音。
 
