@@ -30,7 +30,7 @@ Trained on **100K hours of Emilia**, VoxMel is evaluated on English and Chinese 
 - **Coarse-only autoregression** — Generate Coarse-Mel first, then the temporal residual and frequency residual in dependency order. Residual details stay outside the autoregressive history.
 - **English and Chinese zero-shot cloning** — Synthesize speech from reference audio and its transcript, with 24 kHz output in the paper's configuration.
 
-- **Post-training** — Frozen-head GRPO improves all four Seed-TTS metrics.
+- **Post-training** — Frozen-head GRPO improves all four Seed-TTS-eval metrics.
 
 ---
 
