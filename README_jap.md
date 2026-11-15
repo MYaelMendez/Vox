@@ -8,17 +8,24 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/voxmel-logo-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/voxmel-logo.png">
-    <img src="assets/voxmel-logo.png" alt="VoxMel TTS：ウェーブレットと音声波形のロゴ" width="360">
+    <img src="assets/voxmel-logo.png" alt="VoxMel TTS" width="360">
   </picture>
 </p>
 
+
 <p align="center">
-  Technical Report (coming soon) |
-  <a href="https://voxdance.github.io/voxmel-demo">Project Page</a> |
-  <a href="https://github.com/VoxDance-Lab/voxmel">GitHub</a> |
-  <a href="https://huggingface.co/VoxDance-Lab/VoxMel-0.6B">Hugging Face</a>
+  📄 <a href="./assets/papers/VoxMel_Technical_Report.pdf">技術レポート</a> &nbsp;|&nbsp;
+  🌐 <a href="https://voxdance.github.io/voxmel-demo">プロジェクトページ</a> &nbsp;|&nbsp;
+  💻 <a href="https://github.com/VoxDance-Lab/VoxMel">GitHub リポジトリ</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/VoxDance-Lab/">Hugging Face モデル</a>
 </p>
 
+## 🔥 📰 最新情報
+
+- **2026.11.16** — 技術レポートを公開しました！
+- **2026.11.12** — コードとモデルの重み（VoxMel-0.6B / VoxMel-0.3B）を公開しました！
+
+---
 **VoxMel** は、固定かつ厳密に可逆な2軸 Haar 変換を用いてメルスペクトログラムを直接モデル化する、音響トークナイザー不要の連続自己回帰型テキスト音声合成（TTS）フレームワークです。言語モデルのバックボーンとフローマッチングヘッドが **Coarse-Mel** を自己回帰的に生成し、2つの非自己回帰残差層が時間・周波数の細部を復元します。残差は自己回帰の履歴に戻されません。独立した Vocos ボコーダーが復元されたメルスペクトログラムを波形に変換します。
 
 VoxMel は **Emilia の10万時間のデータ**で学習し、英語と中国語のゼロショット音声クローニングで評価しています。**0.6B** の教師ありモデルは Seed-TTS-eval test-en で **1.51% WER / 0.738 SIM** を達成し、ヘッドを凍結した GRPO により **1.15% WER / 0.753 SIM** に改善します。比較結果と評価プロトコルは[評価](#evaluation)をご覧ください。
