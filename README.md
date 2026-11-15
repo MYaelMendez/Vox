@@ -290,49 +290,31 @@ VoxMel code and model weights are released under the [Apache License 2.0](https:
 
 <table align="center">
   <tr>
-    <td align="center" width="200">
-      <a href="https://www.sii.edu.cn/">
-        <img src="assets/contributors/sii_logo.svg" width="90" alt="Shanghai Innovation Institute">
-      </a>
-      <br>
-      <sub><b>Shanghai Innovation Institute</b></sub>
+    <td align="center" valign="middle" width="210">
+      <img src="assets/contributors/sii_logo.svg" width="90" alt="SII">
+      <br><sub>Shanghai Innovation Institute</sub>
     </td>
-    <td align="center" width="200">
-      <a href="https://www.xmu.edu.cn/">
-        <img src="assets/contributors/xmu.jpeg" width="90" alt="Xiamen University">
-      </a>
-      <br>
-      <sub><b>Xiamen University</b></sub>
+    <td align="center" valign="middle" width="210">
+      <img src="assets/contributors/xmu.jpeg" width="90" alt="XMU">
+      <br><sub>Xiamen University</sub>
     </td>
-    <td align="center" width="200">
-      <a href="https://www.sjtu.edu.cn/">
-        <img src="assets/contributors/sjtu.jpeg" width="90" alt="Shanghai Jiao Tong University">
-      </a>
-      <br>
-      <sub><b>Shanghai Jiao Tong University</b></sub>
+    <td align="center" valign="middle" width="210">
+      <img src="assets/contributors/sjtu.jpeg" width="90" alt="SJTU">
+      <br><sub>Shanghai Jiao Tong University</sub>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://www.fudan.edu.cn/">
-        <img src="assets/contributors/fdu.jpeg" width="90" alt="Fudan University">
-      </a>
-      <br>
-      <sub><b>Fudan University</b></sub>
+    <td align="center" valign="middle">
+      <img src="assets/contributors/fdu.jpeg" width="90" alt="FDU">
+      <br><sub>Fudan University</sub>
     </td>
-    <td align="center">
-      <a href="https://www.zju.edu.cn/">
-        <img src="assets/contributors/zju.jpeg" width="90" alt="Zhejiang University">
-      </a>
-      <br>
-      <sub><b>Zhejiang University</b></sub>
+    <td align="center" valign="middle">
+      <img src="assets/contributors/zju.jpeg" width="90" alt="ZJU">
+      <br><sub>Zhejiang University</sub>
     </td>
-    <td align="center">
-      <a href="https://www.kyoto-u.ac.jp/en">
-        <img src="assets/contributors/kyoto.jpeg" width="90" alt="Kyoto University">
-      </a>
-      <br>
-      <sub><b>Kyoto University</b></sub>
+    <td align="center" valign="middle">
+      <img src="assets/contributors/kyoto.jpeg" width="90" alt="Kyoto">
+      <br><sub>Kyoto University</sub>
     </td>
   </tr>
 </table>
