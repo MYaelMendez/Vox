@@ -277,3 +277,82 @@ VoxMel code and model weights are released under the [Apache License 2.0](https:
   <br>
   <b>VoxDance Lab</b>
 </p>
+
+
+
+---
+
+## Contributors
+
+<p align="center">
+  We gratefully acknowledge the contributions of the following institutions.
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <a href="https://www.sii.edu.cn/">
+        <img src="assets/contributors/sii_logo.svg" width="90" alt="Shanghai Innovation Institute">
+      </a>
+      <br>
+      <sub><b>Shanghai Innovation Institute</b></sub>
+    </td>
+    <td align="center" width="200">
+      <a href="https://www.xmu.edu.cn/">
+        <img src="assets/contributors/xmu.jpeg" width="90" alt="Xiamen University">
+      </a>
+      <br>
+      <sub><b>Xiamen University</b></sub>
+    </td>
+    <td align="center" width="200">
+      <a href="https://www.sjtu.edu.cn/">
+        <img src="assets/contributors/sjtu.jpeg" width="90" alt="Shanghai Jiao Tong University">
+      </a>
+      <br>
+      <sub><b>Shanghai Jiao Tong University</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.fudan.edu.cn/">
+        <img src="assets/contributors/fdu.jpeg" width="90" alt="Fudan University">
+      </a>
+      <br>
+      <sub><b>Fudan University</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://www.zju.edu.cn/">
+        <img src="assets/contributors/zju.jpeg" width="90" alt="Zhejiang University">
+      </a>
+      <br>
+      <sub><b>Zhejiang University</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://www.kyoto-u.ac.jp/en">
+        <img src="assets/contributors/kyoto.jpeg" width="90" alt="Kyoto University">
+      </a>
+      <br>
+      <sub><b>Kyoto University</b></sub>
+    </td>
+  </tr>
+</table>
+
+
+---
+
+## 📖 Citation
+
+If you find VoxMel useful in your research or work, please consider citing our technical report:
+
+```bibtex
+@techreport{guan2026voxmel,
+  title       = {VoxMel TTS Technical Report},
+  author      = {Guan, Wenhao and Ye, Jiaxin and Li, Haitao and
+                 Duan, Yifan and Liu, Junxi and Zhou, Wangjin and
+                 Li, Lin and Hong, Qingyang and Chen, Xie},
+  year        = {2026},
+  url         = {https://github.com/VoxDance-Lab/VoxMel/blob/main/assets/papers/VoxMel_Technical_Report.pdf}
+}
+```
+
+
