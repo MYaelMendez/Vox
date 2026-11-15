@@ -8,7 +8,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/voxmel-logo-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/voxmel-logo.png">
-    <img src="assets/voxmel-logo.png" alt="VoxMel TTS: wavelet and speech waveform logo" width="360">
+    <img src="assets/voxmel-logo.png" alt="VoxMel TTS" width="360">
   </picture>
 </p>
 
