@@ -13,11 +13,20 @@
 </p>
 
 <p align="center">
-  Technical Report (coming soon) |
-  <a href="https://voxdance.github.io/voxmel-demo">Project Page</a> |
-  <a href="https://github.com/VoxDance-Lab/voxmel">GitHub</a> |
-  <a href="https://huggingface.co/VoxDance-Lab/VoxMel-0.6B">Hugging Face</a>
+  📄 <a href="./assets/papers/VoxMel_Technical_Report.pdf">Technical Report</a> &nbsp;|&nbsp;
+  🌐 <a href="https://voxdance.github.io/voxmel-demo">Project Page</a> &nbsp;|&nbsp;
+  💻 <a href="https://github.com/VoxDance-Lab/VoxMel">GitHub</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/VoxDance-Lab/">Hugging Face</a>
 </p>
+
+
+
+## 🔥 📰 News
+
+- **2026.11.16** — Technical report released!
+- **2026.11.12** — Code and model weights (VoxMel-0.6B / VoxMel-0.3B) released!
+
+---
 
 **VoxMel** is a tokenizer-free continuous autoregressive text-to-speech (TTS) framework that directly models mel-spectrograms through a fixed, exactly invertible two-axis Haar transform. A language-model backbone with a flow-matching head generates **Coarse-Mel** autoregressively; two non-autoregressive residual tiers recover temporal and frequency details without feeding them back into the autoregressive history. A separate Vocos vocoder converts the reconstructed mel-spectrogram into speech.
 
