@@ -17,7 +17,7 @@ with open(version_file, "r") as f:
 setup(
     name="voxcore",
     version=version,
-    description="VoxMel: Qwen2.5-LLM conditioned multi-scale mel diffusion TTS (train & inference)",
+    description="VoxMel TTS",
     long_description=open(os.path.join(dirname, "README.md"), encoding="utf-8").read()
     if os.path.isfile(os.path.join(dirname, "README.md"))
     else "",
