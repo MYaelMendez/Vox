@@ -139,7 +139,7 @@ def main(argv=None):
     parser.add_argument("--host", default="127.0.0.1")
     args = parser.parse_args(argv)
     try:
-        import gradio  # noqa: F401
+        import gradio 
     except ImportError:
         parser.error('Install the demo dependencies first: pip install -e ".[web]"')
     from voxcore import VoxMel
@@ -154,3 +154,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+
