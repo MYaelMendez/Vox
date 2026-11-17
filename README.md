@@ -59,6 +59,9 @@ Trained on **100K hours of Emilia**, VoxMel is evaluated on English and Chinese 
   - [Seed-TTS-eval Results](#seed-tts-eval-results)
   - [Seed-TTS Batch Evaluation](#seed-tts-batch-evaluation)
 - [License](#-license)
+- [🤝 Community acknowledgments](#-🤝 Community acknowledgments)
+- [Contributors](#-Contributors)
+- [Citation](#-Citation)
 
 ---
 
@@ -340,13 +343,14 @@ VoxMel code and model weights are released under the [Apache License 2.0](https:
 If you find VoxMel useful in your research or work, please consider citing our technical report:
 
 ```bibtex
-@techreport{guan2026voxmel,
-  title       = {VoxMel TTS Technical Report},
-  author      = {Guan, Wenhao and Ye, Jiaxin and Li, Haitao and
-                 Duan, Yifan and Liu, Junxi and Zhou, Wangjin and
-                 Li, Lin and Hong, Qingyang and Chen, Xie},
-  year        = {2026},
-  url         = {https://github.com/VoxDance-Lab/VoxMel/blob/main/assets/papers/VoxMel_Technical_Report.pdf}
+@misc{guan2026voxmel,
+  title  = {VoxMel TTS Technical Report},
+  author = {Guan, Wenhao and Ye, Jiaxin and Li, Haitao and Duan, Yifan and
+            Liu, Junxi and Zhou, Wangjin and Li, Lin and Hong, Qingyang and Chen, Xie},
+  year   = {2026},
+  eprint        = {2611.20254},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2611.20254}
 }
 ```
 
