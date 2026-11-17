@@ -59,7 +59,7 @@ Trained on **100K hours of Emilia**, VoxMel is evaluated on English and Chinese 
   - [Seed-TTS-eval Results](#seed-tts-eval-results)
   - [Seed-TTS Batch Evaluation](#seed-tts-batch-evaluation)
 - [License](#-license)
-- [🤝 Community acknowledgments](#-🤝 Community acknowledgments)
+- [🤝 Community acknowledgments](#-community-acknowledgments)
 - [Contributors](#-Contributors)
 - [Citation](#-Citation)
 
