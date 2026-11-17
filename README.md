@@ -261,8 +261,21 @@ to each language directory. The script supports `GPU`, `NPROC`, `MAX_ITEMS`,
 `COARSE_STEPS`, `UP_STEPS`, and CFG environment overrides and skips existing output.
 Use `DEVICE=cpu` or `DEVICE=mps` with `NPROC=1` for non-CUDA inference.
 
+
 ---
 
+
+## 🤝 Community acknowledgments
+
+> [!TIP]
+> **Run VoxMel natively on an Apple Silicon Mac**
+>
+> Thank you to [@vanch007](https://github.com/vanch007) for building a community port of VoxMel with Apple’s MLX framework. It supports local inference with BF16, 8-bit, and 4-bit weights.
+>
+> **[Explore mlx-voxmel and get started →](https://github.com/vanch007/mlx-voxmel)**
+
+
+---
 
 ## 📄 License
 
