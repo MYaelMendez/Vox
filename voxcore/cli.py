@@ -10,6 +10,8 @@ def main():
     parser.add_argument("--tokenizer-path")
     parser.add_argument("--vocos-path")
     parser.add_argument("--device", default="auto")
+    parser.add_argument("--fp16", action="store_true")
+    parser.add_argument("--bf16", action="store_true")
     parser.add_argument("--text", required=True)
     parser.add_argument("--prompt-audio")
     parser.add_argument("--prompt-text")
@@ -28,7 +30,8 @@ def main():
     from voxcore.inference import VoxMel
     model = VoxMel.from_pretrained(
         args.model, checkpoint=args.checkpoint, tokenizer_path=args.tokenizer_path,
-        vocos_path=args.vocos_path, device=args.device)
+        vocos_path=args.vocos_path, device=args.device,
+        fp16=args.fp16, bf16=args.bf16)
     wav = model.generate(
         args.text, prompt_wav_path=args.prompt_audio, prompt_text=args.prompt_text,
         seed=args.seed, inference_timesteps=args.timesteps, up_num_steps=args.up_steps,
